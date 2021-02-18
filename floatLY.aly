@@ -1,0 +1,236 @@
+{
+  LinearLayout;
+  orientation="horizontal";
+  id="btnHideOpen";
+  layout_height="fill";
+  layout_width="fill";
+  {
+    ImageView;
+    src="res/images/float_icon.png";
+    id="btnHide";
+    layout_height="6%h";
+    layout_width="6%h";
+  };
+  {
+    LinearLayout;
+    orientation="vertical";
+    layout_height="fill";
+    visibility="gone";
+    id="fullV";
+    layout_width="fill";
+    {
+      CardView;
+      layout_height="42%h";
+      CardElevation="0dp";
+      backgroundColor="0x4B894AF1";
+      radius="15";
+      layout_width="34%h";
+      {
+        LinearLayout;
+        orientation="vertical";
+        layout_height="fill";
+        layout_width="fill";
+        {
+          LinearLayout;
+          orientation="vertical";
+          gravity="center";
+          background="res/images/bg_window.png";
+          layout_height="6%h";
+          layout_width="fill";
+          {
+            TextView;
+            text="NGUYỄN ĐỨC HÂN";
+            layout_height="wrap";
+            textColor="0xFF80FF00";
+            textSize="16sp";
+            layout_width="wrap";
+          };
+          {
+            LinearLayout;
+            orientation="horizontal";
+            layout_height="wrap";
+            layout_width="wrap";
+            {
+              TextView;
+              text="Hack Wild Rift 2.1.0.3851";
+              layout_height="wrap";
+              textColor="0xFFFFFF00";
+              textSize="10sp";
+              layout_width="wrap";
+            };
+            {
+              TextView;
+              text=" | ";
+              layout_height="wrap";
+              textColor="0xFFFFFFFF";
+              textSize="10sp";
+              layout_width="wrap";
+            };
+            {
+              TextView;
+              text="Checker";
+              id="t1";
+              layout_height="wrap";
+              textColor="0xFFFFB100";
+              textSize="10sp";
+              layout_width="wrap";
+            };
+          };
+        };
+        {
+          LinearLayout;
+          layout_height="wrap";
+          layout_width="fill";
+          {
+            ScrollView;
+            layout_height="30%h";
+            layout_width="fill";
+            {
+              LinearLayout;
+              padding="0.5%h";
+              orientation="vertical";
+              layout_height="fill";
+              layout_width="fill";
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="HACK MAP: OFF";
+                  layout_height="fill";
+                  textOn="HACK MAP: ON";
+                  id="map";
+                  textColor="0xFFFFFFFF";
+                  textOff="HACK MAP: ON";
+                  layout_width="fill";
+                };
+              };
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="OFF CAMERA ON FOG";
+                  layout_height="fill";
+                  textOn="OFF CAMERA ON FOG";
+                  id="offfogview";
+                  textColor="0xFF000000";
+                  textOff="OFF CAMERA ON FOG";
+                  layout_width="fill";
+                };
+              };
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="NO FOG";
+                  layout_height="fill";
+                  textOn="NO FOG";
+                  id="nofog";
+                  textColor="0xFF000000";
+                  textOff="No Fog";
+                  layout_width="fill";
+                };
+              };
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="CAMERA VIEW X1";
+                  layout_height="fill";
+                  textOn="CAMERA VIEW X1";
+                  id="x1";
+                  textColor="0xFF000000";
+                  textOff="CAMERA VIEW X1";
+                  layout_width="fill";
+                };
+              };
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="CAMERA VIEW X1.5";
+                  layout_height="fill";
+                  textOn="CAMERA VIEW X1.5";
+                  id="x15";
+                  textColor="0xFF000000";
+                  textOff="CAMERA VIEW X1.5";
+                  layout_width="fill";
+                };
+              };
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="CAMERA VIEW X2";
+                  layout_height="fill";
+                  textOn="CAMERA VIEW X2";
+                  id="x2";
+                  textColor="0xFF000000";
+                  textOff="CAMERA VIEW X2";
+                  layout_width="fill";
+                };
+              };
+              {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
+                  ToggleButton;
+                  text="CAMERA VIEW X3";
+                  layout_height="fill";
+                  textOn="CAMERA VIEW X3";
+                  id="x3";
+                  textColor="0xFF000000";
+                  textOff="CAMERA VIEW X3";
+                  layout_width="fill";
+                };
+              };
+            };
+          };
+        };
+        {
+          LinearLayout;
+          layout_height="wrap";
+          layout_width="fill";
+          {
+            LinearLayout;
+            orientation="horizontal";
+            gravity="center_vertical";
+            backgroundColor="0xB1000000";
+            layout_height="6%h";
+            layout_width="fill";
+            {
+              TextView;
+              text="❌";
+              gravity="center";
+              id="close";
+              textColor="0xFFFFFFFF";
+              layout_height="fill";
+              layout_width="17%h";
+            };
+            {
+              TextView;
+              text="⛔";
+              gravity="center";
+              id="min";
+              textColor="0xFFFFFFFF";
+              layout_height="fill";
+              layout_width="17%h";
+            };
+          };
+        };
+      };
+    };
+  };
+};
